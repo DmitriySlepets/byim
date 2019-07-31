@@ -1,0 +1,183 @@
+.form-question {
+	position: relative;
+	margin: 0 15px;
+	padding: 0px 10px;
+	background-color: #fefee8;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: left;
+	overflow: hidden;
+}
+div.form-question + div.form-question {
+	margin-top: 15px;
+}
+.form-question .title-question {
+	position: relative;
+	margin: 0 -10px 5px -10px;
+	padding: 5px 10px;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+	color: #555555;
+	overflow: hidden;
+	text-shadow: 0 1px 0 #fff;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+.form-answer {
+	position: relative;
+	margin: 15px 15px 15px 100px;
+	padding: 10px 10px 5px 10px;
+	background-color: #f5fbf6;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: left;
+}
+.form-answer .title-answer {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 5px 10px;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	text-shadow: 0 1px 0 #fff;
+	-webkit-border-radius: 0 4px 0 4px;
+	-moz-border-radius: 0 4px 0 4px;
+	border-radius: 0 4px 0 4px;
+}
+.form-answer::before {
+	position: absolute;
+	top: -15px;
+	left: 10px;
+	display: inline-block;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #ddd;
+	border-left: 15px solid transparent;
+	border-bottom-color: #ddd;
+	content: '';
+}
+.form-answer::after {
+	position: absolute;
+	top: -14px;
+	left: 10px;
+	display: inline-block;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #f5fbf6;
+	border-left: 15px solid transparent;
+	border-bottom-color: #f5fbf6;
+	content: '';
+}
+.question-product { 
+	margin: 0;
+}
+.answer-product { 
+	margin: 15px 0 15px 50px;
+}
+.form-question-account {
+	position: relative;
+	margin: 0;
+	padding: 10px;
+	background-color: #fefee8;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: left;
+}
+.form-question-account::before {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	display: inline-block;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ddd;
+	border-left: 10px solid transparent;
+	border-bottom-color: #ddd;
+	content: '';
+}
+.form-question-account::after {
+	position: absolute;
+	top: -9px;
+	left: 20px;
+	display: inline-block;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #fefee8;
+	border-left: 10px solid transparent;
+	border-bottom-color: #fefee8;
+	content: '';
+}
+.form-answer-account {
+	position: relative;
+	margin: 9px 0 0 50px;
+	padding: 10px;
+	background-color: #f5fbf6;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: left;
+}
+.form-question-account .title-account, .form-answer-account .title-account {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 5px 10px;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	text-shadow: 0 1px 0 #fff;
+	-webkit-border-radius: 0 4px 0 4px;
+	-moz-border-radius: 0 4px 0 4px;
+	border-radius: 0 4px 0 4px;
+}
+.form-answer-account::before {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	display: inline-block;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ddd;
+	border-left: 10px solid transparent;
+	border-bottom-color: #ddd;
+	content: '';
+}
+.form-answer-account::after {
+	position: absolute;
+	top: -9px;
+	left: 20px;
+	display: inline-block;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #f5fbf6;
+	border-left: 10px solid transparent;
+	border-bottom-color: #f5fbf6;
+	content: '';
+}
+table thead td  {
+	font-weight: bold;
+}
+table.question tbody td  {
+	vertical-align: middle;
+}
+.question-product-box {
+	float: left;
+	padding: 0 10px 0 0;
+	margin: -5px 10px 5px -10px;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 0 0 4px 0;
+	-moz-border-radius: 0 0 4px 0;
+	border-radius: 0 0 4px 0;
+}
+.question-product-box .img-thumbnail {
+	margin: 5px 10px 5px 5px;
+}
