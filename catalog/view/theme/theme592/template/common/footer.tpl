@@ -1,4 +1,33 @@
 <footer>
+  
+	<script>
+	
+		/*CK_СлайдерКатегории_Начало*/
+		sliding = 1;
+		$('.box-heading').click(function() {
+			text = $( this ).html(); 
+			if(text == "<h3>Категории</h3>"){
+				if(sliding % 2 == 0){
+					$( this ).parent().children('.box-content').slideDown();
+				}else{
+					$( this ).parent().children('.box-content').slideUp();
+				}
+				sliding = sliding+1;
+			}
+		})
+		/*CK_СлайдерКатегории_Конец*/
+  
+		$( document ).ready(function() {
+			var selection = document.getElementsByClassName('box-heading');
+			for(var i = 0; i < selection.length; i++){
+				if(selection[i].childNodes[0].innerHTML == "Категории"){
+					selection[i].click();
+				}
+			}
+		});	
+  
+    </script>
+  
   <div class="container">
 	<div class="row">
 		<div class="col-sm-3">

@@ -3548,6 +3548,6 @@ footer > .container {
 #question  .form-answer .title-answer {
 	    border: 1px solid #58364e;
 }
-
-
+.column-left .box.category{padding: 0;}
+.column-left .box.category .box-heading{cursor:pointer;}
   
