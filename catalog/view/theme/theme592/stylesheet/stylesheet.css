@@ -3548,6 +3548,6 @@ footer > .container {
 #question  .form-answer .title-answer {
 	    border: 1px solid #58364e;
 }
-.column-left .box.category{padding: 0;}
-.column-left .box.category .box-heading{cursor:pointer;}
-  
+aside .box.category{padding: 0;}
+aside .box.category .box-heading{cursor:pointer;}
+aside .box .box-heading:after {content: '\f055'; position: absolute; right: 8px; top: 23px; font-size: 21px; font-family: "FontAwesome"; color: #fff; }
